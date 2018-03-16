@@ -198,6 +198,11 @@ angular.module('ui.bootstrap.dropdown', ['ui.bootstrap.multiMap', 'ui.bootstrap.
       angular.element(self.dropdownMenu).find('a') :
       $element.find('ul').eq(0).find('a');
 
+    // Early return if trying to focus while no dropdown options exist yet
+    if (elems.length === 0) {
+      return;
+    }
+
     switch (keyCode) {
       case 40: {
         if (!angular.isNumber(self.selectedOption)) {
