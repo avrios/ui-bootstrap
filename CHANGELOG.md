@@ -1,3 +1,13 @@
+<a name="2.5.7"></a>
+## [2.5.7](https://github.com/angular-ui/bootstrap/compare/2.5.6...2.5.7) (2018-03-16)
+
+
+### Bug Fixes
+
+* avoid focusing on an option if there are no options in the dropdown ([db5d82b](https://github.com/angular-ui/bootstrap/commit/db5d82b))
+
+
+
 <a name="2.5.0"></a>
 # [2.5.0](https://github.com/angular-ui/bootstrap/compare/2.4.0...v2.5.0) (2017-01-28)
 
