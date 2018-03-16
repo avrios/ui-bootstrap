@@ -14,7 +14,9 @@ lib-cov
 pids
 logs
 results
-dist
+dist/assets
+dist/index.html
+dist/versions-mapping.json
 # test coverage files
 .coverage/
 
